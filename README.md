@@ -6,6 +6,8 @@ Bu kod, karakterler listesindeki her bir karakterin her bir pozisyonda tekrarlan
 
 yani yaklaşık olarak 1.8 * 10 ^ 115 olacaktır. Ancak bu, "hedefli şifre"nin tüm kombinasyonlarını deneyerek bulunabileceği anlamına gelmez. Ayrıca, pyautogui kütüphanesi kullanıldığından, şifre denemeleri sırasında bilgisayarın tepkisiz kalması muhtemeldir ve bu da programın çalışmasını etkileyebilir.
 
+>>>  pip install pyautogui 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 This code will try all possible combinations that can be created by repeating each character in the characters list at each position. The maximum password length is set to 64, so the total number of attempts will be:
